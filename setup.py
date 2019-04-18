@@ -16,13 +16,13 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='lambda_packages',
-    version='0.21.0',
+    version='0.21.1',
     packages=['lambda_packages'],
     include_package_data=True,
     license='MIT License',
     description='AWS Lambda Packages',
     long_description=README,
-    url='https://github.com/Miserlou/lambda-packages',
+    url='https://github.com/chasetb/lambda-packages',
     author='Rich Jones',
     author_email='rich@openwatch.net',
     classifiers=[
